@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code - Contato</title>
+    <link rel="stylesheet" type="text/css" href="./src/css/folhadeestilo.css">
+</head>
+<body class='color-page'>
+    <div class="container-principal" id="topo">
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./src/imagem/logo.png" alt="logo site">
+                </a>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="clientes.html">clientes</a></li>
+                    <li><a href="sobre.html">sobre</a></li>
+                    <li><a href="#topo">contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class='img-titulo'><img src="./src/imagem/contato.png" alt="imagem de contato"></div>
+
+        <section id="txt-contato">
+            <form name="meu_form" id="meu_form">
+                <p class="nome">
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nomeid" placeholder="Ex: Kobe Bryant" required="required" name="nome"/>
+                </p>
+                <p class="fone">
+                    <label for="fone">fone:</label><br>
+                    <input type="phone" id="foneid" placeholder="(xx)xxxx-xxxx" name="fone"/>
+                </p>
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="emailid" placeholder="kobe@bryant.com" name="email" required="required" />
+                </p>
+                <p>
+                    <textarea placeholder="mensagem" required="required"></textarea>
+                </p>
+                <button type="submit" form="meu_form">Enviar</button>
+            </form>
+
+            <div id="conta-data">
+               <h4>Code - Desenvolvimento de sites</h4>
+               <h5><img src="./src/imagem/icoadress.png" alt="endereço"><br>Avenida Novos Conhecimentos nº 2023</h5>
+               <h5><img src="./src/imagem/icoTelefone.png" alt="telefone"><br>+ 55 16 9999-9999</h5>
+               <h5><img src="./src/imagem/icoContato.png" alt="email"><br>contato@code.com.br</h5>
+               <h5><img src="./src/imagem/icoface.png" alt="facebook"><br>facebook.com\codedev</h5>
+               <h5><img src="./src/imagem/icoinsta.png" alt="instagram"><br>@codedev</h5>
+            </div>
+        </section>        
+    </div>
+</body>
+</html>        
